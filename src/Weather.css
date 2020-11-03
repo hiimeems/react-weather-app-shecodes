@@ -1,0 +1,31 @@
+.Weather {
+  border: 1px solid orange;
+  font-family: monospace;
+  padding: 10px;
+  margin: 2px;
+}
+
+.Weather h1 {
+  text-align: center;
+  margin: 20px auto;
+  font-weight: 100;
+  line-height: 30px;
+  font-size: 24px;
+}
+
+.Weather form {
+  display: block;
+  margin-top: 0em;
+}
+
+.Weather li {
+  font-weight: 200;
+  line-height: 20px;
+  font-size: 18px;
+  list-style: none;
+}
+
+.Weather ul {
+  margin: 0px;
+  padding: 0px;
+}
