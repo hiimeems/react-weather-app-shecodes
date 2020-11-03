@@ -1,4 +1,11 @@
-.Weather {
+.App {
   font-family: monospace;
   color: orange;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.App footer {
+  font-size: 11px;
+  margin: 8px;
 }
