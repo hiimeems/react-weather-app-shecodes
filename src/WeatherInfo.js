@@ -9,11 +9,17 @@ export default function WeatherInfo(props) {
       </h1>
       <div className="row">
         <div className="col-4">
-          <span className="temperature">
-            {" "}
-            {Math.round(props.data.temperature)}
-          </span>
-          <span className="unit">°C</span>
+          <div className="clear-fix">
+            <div className="temperature">
+              <span className="float-left">
+                {" "}
+                {Math.round(props.data.temperature)}
+              </span>
+            </div>
+            <div className="unit">
+              <span className="float-right">°C</span>
+            </div>
+          </div>
         </div>
         <div className="col-4">
           <img src={props.data.iconUrl} alt={props.data.description}></img>

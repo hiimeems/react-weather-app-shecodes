@@ -20,8 +20,8 @@
 
 .Weather img {
   position: absolute;
-  right: 64px;
-  top: 17px;
+  right: 48px;
+  top: 4px;
 }
 
 .Weather li {
@@ -44,7 +44,7 @@
   color: orange;
   font-size: 80px;
   position: relative;
-  left: 152px;
+  left: 144px;
   top: -11px;
 }
 
