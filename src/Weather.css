@@ -7,7 +7,7 @@
 
 .Weather h1 {
   text-align: center;
-  margin: 20px 0 0 0;
+  margin: 10px 0 10px 0;
   font-weight: 100;
   line-height: 30px;
   font-size: 24px;
@@ -18,11 +18,19 @@
   margin-top: 0em;
 }
 
+.Weather img {
+  position: absolute;
+  right: 64px;
+  top: 17px;
+}
+
 .Weather li {
   font-weight: 200;
   line-height: 20px;
-  font-size: 18px;
+  font-size: 14px;
   list-style: none;
+  position: relative;
+  left: -45px;
 }
 
 .Weather ul {
@@ -33,5 +41,18 @@
 .Weather .temperature {
   font-weight: 400;
   color: orange;
-  font-size: 40px;
+  font-size: 80px;
+  position: relative;
+  left: 152px;
+  top: -11px;
+}
+
+.Weather .city-entered {
+  text-decoration: underline;
+}
+
+.Weather .unit {
+  position: absolute;
+  right: -35px;
+  top: 14px;
 }
