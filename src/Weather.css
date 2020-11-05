@@ -19,19 +19,15 @@
 }
 
 .Weather canvas {
-  position: absolute;
-  left: 64px;
-  top: 14px;
+  position: relative;
+  left: 54px;
+  bottom: -10px;
 }
 
 .Weather li {
-  font-weight: 200;
-  line-height: 20px;
-  font-size: 14px;
   list-style: none;
   position: relative;
-  left: -27px;
-  top: 9px;
+  left: -37px;
 }
 
 .Weather ul {
@@ -44,8 +40,8 @@
   color: orange;
   font-size: 80px;
   position: relative;
-  left: 110px;
-  top: -11px;
+  left: 108px;
+  top: -21px;
 }
 
 .Weather .city-entered {
@@ -54,6 +50,6 @@
 
 .Weather .unit {
   position: absolute;
-  right: -35px;
-  top: 14px;
+  left: 213px;
+  bottom: 73px;
 }
