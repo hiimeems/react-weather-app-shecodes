@@ -18,10 +18,10 @@
   margin-top: 0em;
 }
 
-.Weather img {
+.Weather canvas {
   position: absolute;
-  right: 48px;
-  top: 4px;
+  left: 64px;
+  top: 14px;
 }
 
 .Weather li {
@@ -30,7 +30,7 @@
   font-size: 14px;
   list-style: none;
   position: relative;
-  left: -45px;
+  left: -27px;
   top: 9px;
 }
 
@@ -44,7 +44,7 @@
   color: orange;
   font-size: 80px;
   position: relative;
-  left: 144px;
+  left: 110px;
   top: -11px;
 }
 
