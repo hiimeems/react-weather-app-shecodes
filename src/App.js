@@ -8,10 +8,11 @@ export default function App() {
       <div className="container">
         <Weather defaultCity="new york" />
         <footer>
-          this project was coded by michelle chung and is{" "}
+          coded by michelle chung and is{" "}
           <a
             href="https://github.com/hiimeems/react-weather-app-shecodes"
             target="_blank"
+            rel="noopener noreferrer"
           >
             open-sourced{" "}
           </a>
