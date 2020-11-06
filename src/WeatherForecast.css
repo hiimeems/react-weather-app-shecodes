@@ -1,0 +1,13 @@
+.WeatherForecast {
+  text-align: center;
+}
+
+.WeatherForecast canvas {
+  display: table-row;
+  margin: 5px auto;
+}
+
+.WeatherForecast .DailyForecast {
+  display: block;
+  margin: 5px 0;
+}

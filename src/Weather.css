@@ -27,12 +27,7 @@
 .Weather li {
   list-style: none;
   position: relative;
-  left: -37px;
-}
-
-.Weather ul {
-  margin: 0px;
-  padding: 0px;
+  left: 24px;
 }
 
 .Weather .temperature {
@@ -50,6 +45,6 @@
 
 .Weather .unit {
   position: absolute;
-  left: 213px;
-  bottom: 73px;
+  left: 207px;
+  bottom: 103px;
 }
