@@ -8,15 +8,20 @@ export default function App() {
       <div className="container">
         <Weather defaultCity="new york" />
         <footer>
-          coded by michelle chung and is{" "}
+          coded by{" "}
+          <a href="https://www.linkedin.com/in/michelle-chung-042b3a13b">
+            michelle chung
+          </a>
+          , is{" "}
           <a
             href="https://github.com/hiimeems/react-weather-app-shecodes"
             target="_blank"
             rel="noopener noreferrer"
           >
-            open-sourced{" "}
+            open-sourced on Github
           </a>
-          on Github
+          , and hosted on{" "}
+          <a href="https://loving-jackson-082d41.netlify.app/">Netlify</a>
         </footer>
       </div>
     </div>
