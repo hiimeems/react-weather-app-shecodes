@@ -10,6 +10,7 @@ export default function CityTemperature(props) {
 
   function showCelsius(event) {
     event.preventDefault();
+    setUnit("celsius");
   }
 
   function fahrenheit() {
