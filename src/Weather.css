@@ -1,8 +1,10 @@
 .Weather {
-  border: 1px solid orange;
+  border: 1px solid rgb(0, 204, 255);
   font-family: monospace;
   padding: 10px;
   border-radius: 6px;
+  background-color: #96fbcc;
+  background-image: linear-gradient(225deg, #96fbcc 0%, #8db1ff 74%);
 }
 
 .Weather h1 {
@@ -32,7 +34,7 @@
 
 .Weather .temperature {
   font-weight: 400;
-  color: orange;
+  color: rgb(175, 4, 175);
   font-size: 80px;
   position: relative;
   left: 108px;

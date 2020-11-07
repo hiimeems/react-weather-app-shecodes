@@ -5,6 +5,7 @@
 .WeatherForecast canvas {
   display: table-row;
   margin: 5px auto;
+  
 }
 
 .WeatherForecast .DailyForecast {

@@ -5,7 +5,7 @@ export default function ForecastPreview(props) {
   function hours() {
     let date = new Date(props.data.dt * 1000);
     let hours = date.getHours();
-    return `${hours}: 00`;
+    return `${hours}:00`;
   }
 
   function temperature() {

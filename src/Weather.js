@@ -57,7 +57,7 @@ export default function Weather(props) {
               <input
                 type="button"
                 value="enter"
-                className="btn btn-success w-100"
+                className="btn btn-primary w-100"
               />
             </div>
           </div>
