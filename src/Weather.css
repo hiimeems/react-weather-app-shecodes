@@ -4,6 +4,7 @@
   padding: 10px;
   border-radius: 6px;
   background-color: #96fbcc;
+  margin: 15px;
 }
 
 .Weather h1 {
@@ -48,4 +49,8 @@
   position: absolute;
   left: 207px;
   bottom: 103px;
+}
+
+input .btn {
+    margin-right: 5px;
 }
