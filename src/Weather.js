@@ -3,6 +3,7 @@ import axios from "axios";
 import WeatherInfo from "./WeatherInfo";
 import WeatherForecast from "./WeatherForecast";
 import "./Weather.css";
+import Loader from "react-loader-spinner";
 
 export default function Weather(props) {
   const [city, setCity] = useState(props.defaultCity);
@@ -86,6 +87,14 @@ export default function Weather(props) {
     );
   } else {
     search();
-    return "Loading...";
+    return (
+      <Loader
+        type="Hearts"
+        color="#00BFFF"
+        height={100}
+        width={100}
+        timeout={3000}
+      />
+    );
   }
 }
