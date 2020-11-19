@@ -69,12 +69,12 @@ export default function Weather(props) {
             <div className="col-6">
               <input
                 type="button"
-                value="enter"
+                value="search"
                 className="btn btn-primary w-50"
               />
               <input
                 type="button"
-                value="here"
+                value="current"
                 className="btn btn-info w-50"
                 onClick={myCurrentLocation}
               />
