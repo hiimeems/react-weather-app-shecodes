@@ -54,3 +54,9 @@
 input .btn {
   margin-right: 5px;
 }
+
+.float-right {
+  float: right !important;
+  position: relative;
+  left: 52px;
+}
