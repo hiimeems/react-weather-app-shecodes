@@ -22,7 +22,6 @@
 }
 
 .Weather canvas {
-  position: relative;
   left: 54px;
   bottom: -10px;
 }

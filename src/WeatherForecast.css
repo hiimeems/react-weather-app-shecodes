@@ -1,12 +1,11 @@
 .WeatherForecast {
   text-align: center;
- 
 }
 
 .WeatherForecast canvas {
   display: table-row;
   margin: 5px auto;
-   width: 40px;
+  width: 40px;
   height: 40px;
 }
 
