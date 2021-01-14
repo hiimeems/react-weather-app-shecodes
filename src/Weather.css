@@ -60,3 +60,13 @@ input .btn {
   position: relative;
   left: 52px;
 }
+
+.search-button {
+  width: 38px;
+  height: 30px;
+}
+
+.search-button svg {
+  width: 25px;
+  height: 25px;
+}
